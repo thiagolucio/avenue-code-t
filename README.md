@@ -1,4 +1,4 @@
-## Litle Project in NextJS based in Avenue Code Front-end Test Enterview with Thiago Lúcio Bittencourt. I never give up! \o/
+## Litle Project in NextJS based in Avenue Code Front-end Test Interview with Thiago Lúcio Bittencourt. I never give up! \o/
 
  - You can see my professional profile, contacts clicks & tricks and all about me, including a Pitch vídeo, all in English.
  - [Personal WebSite](https://thiagolucio.com.br/)
