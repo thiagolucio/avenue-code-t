@@ -1,3 +1,9 @@
+## *** ATENÇÃO ***
+### ESTE TESTE É UMA PROPOSTA DE TESTE E NÃO FOI FINALIZADO, ESTÁ EM ANDAMENTO PARA OPORTUNIDADES FUTURAS POIS O TESTE OFICIAL NÃO FOI FEITO POR MIM. Infelizmente o faço em meu tempo livre que é bem pouco.
+
+#### DESDE JÁ AGRADEÇO SEU TEMPO EM VERIFICÁ-LO. 
+
+###### Ficarei alegre em receber críticas e sugestões. Muito Obrigado novamente ! :)
 ## Litle Project in NextJS based in Avenue Code Front-end Test Interview with Thiago Lúcio Bittencourt. I never give up! \o/
 
  - You can see my professional profile, contacts clicks & tricks and all about me, including a Pitch vídeo, all in English.

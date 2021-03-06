@@ -1,11 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import styles from '../styles/FirstTest.module.css'
+
 
 const ListInserted = () => {
 
     const [isLoaded, setIsLoaded] = useState(false);
-
-    const fuller = ["England", "Ireland"];
 
     useEffect(() => {
         setTimeout(() => {
@@ -20,22 +18,15 @@ const ListInserted = () => {
                     <div className="spinner-grow text-dark mt-5" role="status"></div>
                 </div> :
                 <div className="row">
-                    {/* {(fuller.value !== this.state.input.value) ?
-                            <div className="badge badge-alert"><span>&#129488;</span>Please, provide the valid input</div>
-                            :
-                            <div className="badge badge-success"><span>&#128521;</span>Thanks to provide right input</div>                    
-                        } */}
-                    <ul className="list-group bg-dark mt-5" style={{ width: 320 }}>
-                        <li className="list-group-item d-flex justify-content-between align-items-center">
-                            {fuller[0]}
-                            <span class="badge font16">&#128515;</span>
-                        </li>
-                        <li className="list-group-item d-flex justify-content-between align-items-center text-danger">
-                            {fuller[1]}
-                            <span class="badge font16">&#128553;</span>
-                        </li>
+                    <div className="input-group mb-3">
+                        <input type="text" className="form-control" placeholder=" &#129299;  Valid input, please?" aria-label="input Country" aria-describedby="button-addon2" ref={(input) => { this.newText = input }} />
+                        <button className="btn btn-dark" type="button" id="buttonAdd" onclick={addItem()}>Insert</button>
+                    </div>
+                    <ul className="list-group bg-dark mt-5" style={{ width: 320 }} id="dynamic-list">           
+                        {this.state.cities.map(function(value) {
+                            return <li>{value}</li>
+                        })}
                     </ul>
-
                 </div>
             }
         </div>
