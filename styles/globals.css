@@ -14,3 +14,56 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.height100 {
+  height: 100vh;
+}
+
+.code {
+  background: #fafafa;
+  border-radius: 5px;
+  padding: 0.75rem;
+  font-size: 1.1rem;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace;
+}
+
+.logo {
+  height: 4em;
+}
+.logoTop {
+  height: 8em;
+}
+.font16 {font-size: 18px;}
+/** Entrance animation for smile \o/ **/
+
+.fade-in {
+	animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+.smile-entrance {
+	animation: smile-entrance 0.9s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+}
+
+@keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+ @keyframes smile-entrance {
+  0% {
+    transform: scale(2);
+    filter: blur(4px);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+

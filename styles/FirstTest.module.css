@@ -1,0 +1,28 @@
+.topMenu {
+    background: #222;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+.topMenu img {
+    height: 70px;
+    width: auto;
+    margin-top: 20px;
+    align-self: center;
+    border: 10px solid #222;
+    border-radius: 50%;
+}
+
+.fade-in {
+	animation: fade-in 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+ @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
