@@ -1,3 +1,16 @@
+## Litle Project in NextJS based in Avenue Code Front-end Test Enterview with Thiago Lúcio Bittencourt. I never give up! \o/
+
+ - You can see my professional profile, contacts clicks & tricks and all about me, including a Pitch vídeo, all in English.
+ - [Personal WebSite](https://thiagolucio.com.br/)
+
+##### The technology used is NextJS..MAS ... respect the hotline used in the test ... NextJS is just the package to expand my knowledge for you using the vercel and NextJS Production advantages. I hope you agree with that.
+
+##### When you see this repository, clone and analyze it, I may not be finished yet, so you can ask me if you want about it here in Issues or just send me an email: 
+
+- `thiagolucio@gmail.com`
+
+### About:
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
